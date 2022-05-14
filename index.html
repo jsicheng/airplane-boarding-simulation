@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CS 275 Final Project: Airplane Boarding Simulator</title>
+</head>
+<body style="background-color:#101010;color:lightgray" >
+    <h2>
+        CS 275 Final Project: Airplane Boarding Simulator
+    </h2>
+    <h3>
+        Team: Brandon Hua, Sicheng Jia, Daisy Zheng
+    </h3>
+    <br>
+    <h3>
+        Abstract:
+    </h3>
+    <h4>
+        With advancements in agent-based modeling and multi-agent systems in the past decade, complex agent interactions and crowd modeling have produced realistic simulations of crowd movement within an environment. 
+        These simulations have become increasingly important in the game development field and for crowd flow analysis, where the goal is to simulate crowd behavior under different environments such as emergency evacuations. 
+        Many previous works have explored various components of crowd modeling such as collision avoidance, individual agent personalities, and lane formation. We plan to apply these ideas in the scope of multi-agent aircraft boarding simulation. 
+        While some works have explored optimal methods for aircraft boarding, to our knowledge, none have modeled aircraft boarding with multi-agent physical simulations.
+        In our physical plane boarding simulation, we have incorporated various crowd simulation ideas, such as collision avoidance and queue formation, to the multi-agent simulation of aircraft boarding. 
+        Using this physical setting, we have tested various boarding methods such as random, front-to-back, back-to-front, window-middle-aisle, Steffen's perfect, and Steffen's modified.
+        After simulating these boarding methods for 20 epochs each, we found verify earlier works by showing that Steffen's perfect and Steffen's modified was able to consistently board the passengers the fastest.
+        In addition, our physical simulations also support past numerical simulations by showing that the front-to-back boarding method performed far worse than the other boarding methods.
+        Lastly, we discuss the results based on our observations of the simulated agents' behaviors and tendencies.
+    </h4>
+    <h3>
+        Project Report:
+    </h3> <a href="./Multi-Agent Aircraft Boarding Simulation.pdf"> Project Report PDF</a>
+    <br>
+    <br>
+    <h3>
+        Project Source Code
+        (libraries removed to save space):
+    </h3> <a href="./source_code/"> Source Code Folder</a>
+    <br>
+    <br>
+    <h3>
+        Project Executable
+        (download the entire folder or go to folder location, then run plane_boarding.exe):
+    </h3> <a href="./executable/"> Executeable Folder</a>
+    <br>
+    <h3>
+        Simulation parameters:
+    </h3>
+    <h4>
+        (Top Left Dropdown) - Choose whether to view the entire environment, only the airport, or only the airplane. <br>
+        (Middle Right Dropdown) - Choose the plane boarding method to simulate. <br>
+        Min Stowage Time - Minimum time a passenger will spend stowing their luggage. <br>
+        Max Stowage Time - Maximum time a passenger will spend stowing their luggage. <br>
+        Num Rows to Board (Only applies to front-to-back and back-to-front) - Chooses how many rows to call up at once. <br>
+        Wait Time - How much time to wait between calling each passenger (scaled to the number of passengers). <br>
+        Simulation Speed - Time scale to run the simulation (5 is a good speed, set speed to 1 for a true plane boarding experience). <br>
+        Number of Trials - How many times to run the selected boarding method. <br>
+    </h4>
+    <br>
+    <br>
+    <figure>
+        <h3>
+            Project Images:
+        </h3>
+        <img src="environment.PNG" alt="The airport and airplane environment of our simulation." style="max-width:500px; max-height:500px;">
+        <figcaption>The airport and airplane environment of our simulation</figcaption>
+        <br>
+        <img src="queuing.PNG" alt="Queuing behavior of passenger agents." style="max-width:500px; max-height:500px;">
+        <figcaption>Queuing behavior of passenger agents.</figcaption>
+        <br>
+        <h3>
+            Project Demo:
+        </h3>
+        <iframe width="500" height="300" allow="fullscreen;"
+        src="https://www.youtube.com/embed/Y23I1mQ2Oto">
+        </iframe>
+    </figure>
+
+</body>
+</html>

@@ -1,6 +1,7 @@
 # Multi-Agent Aircraft Boarding Simulation
 
-Unity simulation of multiple airplane boarding methods. 
+Unity simulation of multiple airplane boarding methods.
+
 Controllable parameters include:
 
 * Plane boarding method (Random, Front-to-Back, Back-to-Front, Window-Middle-Aisle, Steffen's Perfect, and Steffen's Modified).

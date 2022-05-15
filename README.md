@@ -30,6 +30,9 @@ To run the simulations:
 Alternatively, run `plane_boarding.exe` directly (which may require you to run the executable as an administrator).
 
 The times for each boaring method after running 20 trials is presented in the table below:
+
+<div align="center">
+
 | Boarding Method       | Mean Time (Seconds)   | Standard Deviation    |
 | --------------------- | -------------------   | --------------------- |
 | Random                | 1359.852              | 76.562                |
@@ -38,3 +41,5 @@ The times for each boaring method after running 20 trials is presented in the ta
 | Window-Middle-Aisle   | 1169.300              | 47.175                |
 | Steffen's Perfect     | 927.285               | 29.690                |
 | Steffen's Modified    | 1149.634              | 51.879                |
+
+</div>

@@ -15,5 +15,5 @@ To run the simulations:
 
 1. Clone this repository with `https://github.com/jsicheng/airplane-boarding-simulation.git`
 2. Navigate into the `executable` folder.
-3. Open `cmd` and run `plane_boarding.exe`.
+3. Open `cmd` and run `plane_boarding.exe`.\
 Alternatively, run `plane_boarding.exe` directly (which may require you to run the executable as an administrator).

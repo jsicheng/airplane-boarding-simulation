@@ -11,6 +11,17 @@ Controllable parameters include:
 * Simulation Speed - Time scale to run the simulation (5 is a good speed, set speed to 1 for a true plane boarding experience).
 * Number of Trials - How many times to run the selected boarding method.
 
+<table align="center">
+<tr>
+    <td> Environment </td>
+    <td> Queuing </td>
+</tr>
+<tr>
+    <td> <img src="environment.PNG" width="300" /> </td>
+    <td> <img src="queuing.PNG" width="300" /> </td>
+</tr>
+</table>
+
 To run the simulations:
 
 1. Clone this repository with `https://github.com/jsicheng/airplane-boarding-simulation.git`
